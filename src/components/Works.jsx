@@ -8,13 +8,13 @@ function Works() {
 		<div className="py-12">
 			<SectionTitle id="works">My Works</SectionTitle>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-				{works.map(work => (
+				{works.map(works => (
 					<WorkItem
-						key={work.title}
-						imgUrl={work.imgUrl}
-						title={work.title}
-						tech={work.tech}
-						workUrl={work.workUrl}
+						key={works.title}
+						imgUrl={works.imgUrl}
+						title={works.title}
+						tech={works.tech}
+						workUrl={works.workUrl}
 					/>
 				))}
 			</div>

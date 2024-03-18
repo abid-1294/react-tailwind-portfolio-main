@@ -32,7 +32,7 @@ const Contact = () => {
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.999416780851!2d90.3846848200058!3d23.886335153603003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c5943adefbc7%3A0xbd44881183b5ff40!2sRhythm%20Italy%20Garden!5e1!3m2!1sen!2sbd!4v1710793726847!5m2!1sen!2sbd"
                         width="600" height="500"
-                        allowFullscreen=""
+                        allowFullScreen=""
                         loading="lazy"
                         title='Google maps locations'
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
