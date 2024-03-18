@@ -1,5 +1,5 @@
 import React from 'react';
-import works from '../data/works'
+import works from '../data/works';
 import SectionTitle from './SectionTitle';
 import WorkItem from './WorkItem';
 
@@ -8,13 +8,13 @@ function Works() {
 		<div id='worked' className="py-12">
 			<SectionTitle>My Works</SectionTitle>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-				{works.map(works => (
+				{works.map(work => (
 					<WorkItem
-						key={works.title}
-						imgUrl={works.imgUrl}
-						title={works.title}
-						tech={works.tech}
-						workUrl={works.workUrl}
+						key={work.title}
+						imgUrl={work.imgUrl}
+						title={work.title}
+						tech={work.tech}
+						workUrl={work.workUrl}
 					/>
 				))}
 			</div>
