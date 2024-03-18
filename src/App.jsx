@@ -11,7 +11,7 @@ function App() {
 
 	return (
 		<>
-			<div className="bg-white dark:bg-slate-900 min-h-screen font-poppins ">
+			<div className=" bg-slate-100 dark:bg-slate-900 min-h-screen font-poppins ">
 				<div className='bg-hero-img bg-cover bg-no-repeat bg-center'>
 					<div className="container  mx-auto">
 						<HeroSection />
