@@ -15,7 +15,7 @@ const Contact = () => {
                         </div>
                         <div className="mb-4">
                             <label for="subject" className="block text-sm font-medium text-gray-700">Phone No.:</label>
-                            <input type="number" id="subject" name="subject" placeholder="Enter your last name" className="w-full mt-2 px-3 py-2 rounded-md border-gray-300 border focus:outline-blue-500" />
+                            <input type="number" id="subject" name="subject" placeholder="Enter your phone number" className="w-full mt-2 px-3 py-2 rounded-md border-gray-300 border focus:outline-blue-500" />
                         </div>
                         <div className="mb-6">
                             <label for="email" className="block text-sm font-medium text-gray-700">Email:</label>
