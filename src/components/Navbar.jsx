@@ -41,10 +41,10 @@ const Navbar = () => {
 
                     <div className="absolute inset-x-0 top-20 flex -translate-x-full flex-col items-center gap-8 bg-[#2d69ca99] py-8 opacity-0 transition duration-300 peer-checked:translate-x-0 peer-checked:opacity-100 md:relative md:top-0 md:translate-x-0 md:flex-row md:bg-transparent md:py-0 md:opacity-100">
 
-                        <a href="#" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">About</a>
-                        <a href="#" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">WHAT I DO</a>
-                        <a href="#" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">Work</a>
-                        <a href="#" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">Contact</a>
+                        <a href="#about" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">About</a>
+                        <a href="#provide" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">Service</a>
+                        <a href="#worked" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">Work</a>
+                        <a href="#contact" className="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">Contact</a>
                         <button
                             type="button"
                             onClick={handleThemeSwitch}
