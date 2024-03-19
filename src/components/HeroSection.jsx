@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+
 
 function HeroSection() {
 	return (
@@ -27,7 +28,14 @@ function HeroSection() {
 					</a>
 				</div>
 
-				<a href="" className=''><button className='text-xl bg-[#E2E8F0] dark:text-white dark:hover:text-black dark:bg-indigo-600 dark:hover:bg-[#E2E8F0]  py-1 px-3 mt-16 rounded-2xl hover:bg-indigo-600 font-semibold hover:text-white transition-all duration-500 shadow shadow-white'>Let's talk</button></a>
+				<a href="https://wa.me/1775200200" className=''><button className='text-xl bg-[#E2E8F0] dark:text-white dark:hover:text-black dark:bg-indigo-600 dark:hover:bg-[#25D366]  py-1 px-3 hover:w-[200px] hover:pr-20 mt-16 rounded-2xl hover:bg-[#25D366] font-semibold hover:text-white transition-all duration-500 shadow shadow-white relative flex items-center justify-center  border-transparent  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 group'>Let's talk
+				
+				<span class="absolute left-[120px] hidden h-full items-center text-white group-hover:flex font-medium"> on
+						
+					<FaWhatsapp className='text-2xl ml-2'/>
+						
+					</span>
+				</button></a>
 				{/* Shall we talk */}
 
 			</div>
