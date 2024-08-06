@@ -2,6 +2,7 @@ import AgencImg from "../assets/Agenc_Img.jpg"
 import EstateImg from "../assets/Estate_Img.png"
 import NatureImg from "../assets/Nature_Img.png"
 import InnovateImg from "../assets/Innovate_Img.png"
+import PetroilImg from "../assets/Petroil_Img.png"
 export default [
 	{
 		title: 'Agenc IT Farm',
@@ -24,7 +25,13 @@ export default [
 	{
 		title: 'Innovate IT Farm',
 		imgUrl: InnovateImg,
-		tech: ['HTML', 'CSS'],
+		tech: ['HTML', 'CSS', 'Bootstrap'],
 		workUrl: 'https://innovate-it-farm-webpage.vercel.app/',
+	},
+	{
+		title: 'Petroil',
+		imgUrl: PetroilImg,
+		tech: ['ReactJS', 'Tailwind CSS'],
+		workUrl: 'https://petroil-1294.vercel.app/',
 	},
 ];
