@@ -9,7 +9,7 @@ export default [
 		title: 'To-Do Timer App',
 		imgUrl: ToDoAppImg,
 		tech: ['HTML', 'CSS', 'JavaScript'],
-		workUrl: 'to-do-list-abid-mehrab.vercel.app',
+		workUrl: 'https://to-do-list-abid-mehrab.vercel.app/',
 	},
 	{
 		title: 'Agenc IT Farm',
